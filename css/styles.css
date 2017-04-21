@@ -1,0 +1,52 @@
+body {
+  background-image: url(http://4.bp.blogspot.com/_LYNVGEXliZ4/TT5DeXPnsFI/AAAAAAAABgw/MA4QdFsCglU/s1600/graffiti_wall_street_art_design.JPG);
+}
+
+head {
+  width: 1000px;
+}
+
+div.car {
+  float: left;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+div.car1 {
+  font-size: 20px;
+}
+
+p.author {
+  color: blue;
+  font-size: 20px;
+  float: right;
+}
+
+p {
+  float: right;
+  font-size: 20px
+}
+
+div.body {
+  display: inline-block;
+  height: 310px;
+  width: 1250px;
+  margin-bottom: inherit;
+  background-image: url(https://zellox.com/wp-content/uploads/2016/04/website-background-images-%E2%80%AB309218139%E2%80%AC-%E2%80%AB%E2%80%AC-1440x900.jpg);
+}
+div.details1 {
+  height: 150px;
+  width: 400px;
+}
+
+h1 {
+  text-decoration-line: underline;
+  color: red;
+}
+
+h2 {
+  color: red;
+}
