@@ -7,16 +7,12 @@ head {
 }
 
 div.car {
-  float: left;
+  float: right;
 }
 
 img {
   width:300px;
   height: 350px;
-}
-
-div.car1 {
-  font-size: 20px;
 }
 
 p.author {
@@ -43,8 +39,9 @@ div.details1 {
   width: 400px;
 }
 
-h1 {
+span.highlight {
   text-decoration-line: underline;
+  font-size: 25px;
   color: red;
 }
 
