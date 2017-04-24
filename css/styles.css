@@ -6,8 +6,8 @@ head {
   width: 1000px;
 }
 
-div.car {
-  float: right;
+div.row {
+  width: auto;
 }
 
 img {
@@ -15,15 +15,18 @@ img {
   height: 350px;
 }
 
-p.author {
-  color: black;
-  font-size: 20px;
-  float: right;
+row {
+  width: 100%;
 }
 
-p {
+.col-9 {
+  width: 70%;
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
   float: right;
-  font-size: 20px
 }
 
 div.body {
@@ -33,6 +36,7 @@ div.body {
   margin-bottom: inherit;
   background-image: url(https://zellox.com/wp-content/uploads/2016/04/website-background-images-%E2%80%AB309218139%E2%80%AC-%E2%80%AB%E2%80%AC-1440x900.jpg);
 }
+
 div.details1 {
   height: 150px;
   width: 400px;
@@ -40,4 +44,9 @@ div.details1 {
 
 h2 {
   color: red;
+}
+
+h1 {
+  color: red;
+  font-size: 50px;
 }
