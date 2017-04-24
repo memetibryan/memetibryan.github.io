@@ -16,17 +16,18 @@ img {
 }
 
 row {
-  width: 100%;
+  width: auto;
 }
 
 .col-9 {
-  width: 70%;
+  width: 90%;
   float: left;
 }
 
 .col-3 {
-  width: 30%;
+  width: 70%;
   float: right;
+  background-color: grey;
 }
 
 div.body {
