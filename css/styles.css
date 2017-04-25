@@ -24,6 +24,10 @@ row {
   float: left;
 }
 
+div.col-table {
+  background-color: white;
+}
+
 .col-3 {
   width: 70%;
   float: right;
@@ -47,7 +51,6 @@ h2 {
   color: red;
 }
 
-h1 {
-  color: red;
-  font-size: 50px;
+table {
+  width: 30%;
 }
