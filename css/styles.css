@@ -38,14 +38,14 @@ header img {
 
 /*body*/
 
-body #history {
+.green-background {
   background-color: green;
 }
 
-body #projects {
-  background-color: orange;
+.yellow-background {
+  background-color: yellow;
 }
 
-body #about {
+.red-background {
   background-color: red;
 }

@@ -1,15 +1,16 @@
-$("button#history").click(function() {
-  $("body").removeClass();
-  $("body").addClass("history");
-});
+$(document).ready(function() {
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
+  });
 
-$("button#projects").click(function() {
-  $("body").removeClass();
-  $("body").addClass("projects");
-});
+  $("button#yellow").click(function() {
+    $("body").removeClass();
+    $("body").addClass("yellow-background");
+  });
 
-$("button#about").click(function() {
-$("body").removeClass();
-$("body").addClass("about");
-});
+  $("button#red").click(function() {
+    $("body").removeClass();
+    $("body").addClass("red-background");
+  });
 });
