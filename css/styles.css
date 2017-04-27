@@ -1,56 +1,51 @@
-body {
-  background-image: url(http://4.bp.blogspot.com/_LYNVGEXliZ4/TT5DeXPnsFI/AAAAAAAABgw/MA4QdFsCglU/s1600/graffiti_wall_street_art_design.JPG);
+/*header*/
+
+header #intro .author {
+  font-size: 60px;
+  font-family: cursive;
+  color: Orange;
 }
 
-head {
-  width: 1000px;
-}
-
-div.row {
-  width: auto;
-}
-
-img {
-  width:300px;
-  height: 350px;
-}
-
-row {
-  width: auto;
-}
-
-.col-9 {
-  width: 90%;
-  float: left;
-}
-
-div.col-table {
-  background-color: white;
-}
-
-.col-3 {
-  width: 70%;
-  float: right;
+header {
+  border-bottom: 5px solid;
   background-color: grey;
+  color: White;
+  border-bottom: solid 3px;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/24/87/22/248722cf24e106b67494247689be1016.jpg);
 }
 
-div.body {
-  display: inline-block;
-  height: 310px;
-  width: 1250px;
-  margin-bottom: inherit;
-  background-image: url(https://zellox.com/wp-content/uploads/2016/04/website-background-images-%E2%80%AB309218139%E2%80%AC-%E2%80%AB%E2%80%AC-1440x900.jpg);
+header li {
+  float: left;
+  list-style: none;
+  width: 180px;
+  font-size: 20px;
+  font-family: fantasy;
+  margin-top: 40px;
 }
 
-div.details1 {
-  height: 150px;
-  width: 400px;
+header a:hover {
+  color: orange;
+  cursor: pointer;
 }
 
-h2 {
-  color: red;
+header img {
+  height: 120px;
+  width: 120px;
+  float: right;
+  padding-bottom: 15px;
 }
 
-table {
-  width: 30%;
+
+/*body*/
+
+body #history {
+  background-color: green;
+}
+
+body #projects {
+  background-color: orange;
+}
+
+body #about {
+  background-color: red;
 }
