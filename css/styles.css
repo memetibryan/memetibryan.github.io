@@ -42,10 +42,31 @@ header img {
   background-color: green;
 }
 
+.bord{
+  border: solid;
+}
+
+.bttons{
+  margin: 0px;
+  width: auto;
+}
+
 .yellow-background {
   background-color: yellow;
 }
 
 .red-background {
   background-color: red;
+}
+
+/*about me*/
+.aboutme{
+  background-image: url(http://freedesignfile.com/upload/2016/12/Working-with-Computers-HD-picture-01.jpg);
+  width: auto;
+}
+
+.me{
+  text-align: center;
+  margin: 0px;
+  width: auto;
 }

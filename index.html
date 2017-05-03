@@ -30,13 +30,16 @@
 </header>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
+    <div class="bttons">
     <p>Click below to choose a background color you are comfortable with:-</p>
     <button class="btn btn-success" id="green">Green</button>
     <button class="btn btn-warning" id="yellow">Yellow</button>
     <button class="btn btn-danger" id="red">Red</button>
   </div>
+  </div>
 
+  <div class="bord">
   <div class="row">
     <div class="col-9">
     </div>
@@ -49,7 +52,7 @@
   <div class="body">
     <div class="deatils1">
 
-      Below are some of the projects done by <em>Bryan Memeti</em> while at <a href="https://moringaschool.com">MORINGA SCHOOL:-</a>
+      Below are some of the projects done by <em>Bryan Memeti</em> while at <a href="https://moringaschool.com"><strong>MORINGA SCHOOL:-</strong></a>
       <ol>
         <li><a href="https://github.com/memetibryan/hello-world/blob/master/hello-world.html">hello-world</a></li>
         This project contains the introduction content to HTML language. THis is basic HTML, that is the html elements and saving files with the .html extension using the terminal. View it fr more details.
@@ -63,24 +66,40 @@
         The cookie-recipie project covered the cloning element of git and gihtub. After the cloning, another element is pushing the edited files after commiting to github.
         <li><a href="https://github.com/memetibryan/pet-website/blob/master/pet.html">my pet</a></li>
         This simply is a practice of all the above,ignore the title.
-        </ul>
-
+      </ol>
+    </div>
     </div>
   </div>
 
-  <h2>ABOUT ME</h2>
-  <h3>EDUCATION BACKGROUND</h3>
-  <ul>
-    <li>2012-2016 -Friends School Kamusinga.</li>
-    <li>2006-2011 -St.Josephs Academy Kakamega.</li>
-    <h3>INTERESTS AND HOBBIES</h3>
-    <li>Playing Basketball</li>
-    <li>Dancing</li>
-    <li>Skating</li>
-    <li>Dancing</li>
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+  <div class="container-fluid">
+      <div class="row me">
+        <h2>ABOUT ME</h2>
+      </div>
+
+    <div class="aboutme">
+      <div class="row them">
+        <div class="col-md-6 education">
+          <h3>EDUCATION BACKGROUND</h3>
+          <ul>
+            <li>2012-2016 -Friends School Kamusinga.</li>
+            <li>2006-2011 -St.Josephs Academy Kakamega.</li>
+        </div>
+
+        <div class="col-md-6 interest">
+          <h3>INTERESTS AND HOBBIES</h3>
+          <li>Playing Basketball</li>
+          <li>Dancing</li>
+          <li>Skating</li>
+          <li>Dancing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
