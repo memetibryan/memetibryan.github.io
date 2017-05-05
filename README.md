@@ -7,7 +7,7 @@ This project is authored by Bryan Memeti himself. It is Bryan Memeti's portfolio
 In order to view this website,the user should make sure that he/she has the following:-
   1) Google chrome or any other search engine like mozilla firefox.
   2) He/she is connected to an internet service provider and he/ she is online.
-  3) After the setup and installation procedure, the user can now visit the website through the:-[link] <https://github.com/memetibryan/memetibryan.github.io>
+  3) After the setup and installation procedure, the user can now visit the website through the:-[link] file:///home/bryan/Documents/projects/memetibryan.github.io/index.html
 
 ### AUTHORS
 
